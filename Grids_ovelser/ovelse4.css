@@ -1,0 +1,141 @@
+/* Mit CSS 
+(C) Copyright 2017: Niels Østergaard
+Eksempler på CSS Grid */
+
+body {
+    font-family: sans-serif;
+    background-color: #999999;
+    margin: 1em;
+}
+
+#mitgrid div {
+    font-size: 2em;
+    color: #000000;
+    text-align: center;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#mitgrid {
+    display: grid; 
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+        "e e e e e e e e t t t t t t t t"
+        "i i i i a a a a n n n n m m m m"
+        "s s u u r r w w d d k k g g o o"
+        "h v f 0 l ae p j b x c y z q oe ch"
+        
+}
+
+#mitgrid div:nth-child(odd){
+    background-color: #fff;
+}
+
+#mitgrid div:nth-child(even){
+    background-color: #ccc;
+}
+
+#mitgrid div:nth-child(1){
+    grid-area: e;
+}
+
+#felt2 {
+    grid-area: t;
+}
+
+#mitgrid div:nth-child(3){
+    grid-area: i;
+}
+#felt4 {
+    grid-area: a;
+}
+#felt5 {
+    grid-area: n;
+}
+
+#felt6 {
+    grid-area: m;
+}
+
+#felt7 {
+    grid-area: s;
+}
+
+#felt8{
+    grid-area: u;
+}
+
+#felt9{
+    grid-area: r;
+}
+#felt10{
+    grid-area: w;
+}
+#felt11{
+    grid-area: d;
+}
+#felt12{
+    grid-area: k;
+}
+#felt13{
+    grid-area: g;
+}
+#felt14{
+    grid-area: o;
+}
+#felt15{
+    grid-area: h;
+}
+#felt16{
+    grid-area: v;
+}
+#felt17{
+    grid-area: f;
+}
+#felt18{
+    grid-area: 0;
+}
+#felt19{
+    grid-area: l;
+}
+#felt20{
+    grid-area: ae;
+}
+#felt21{
+    grid-area: p;
+}
+#felt22{
+    grid-area: j;
+}
+#felt23{
+    grid-area: b;
+}
+#felt24{
+    grid-area: x;
+}
+#felt25{
+    grid-area: c;
+}
+#felt26{
+    grid-area: y;
+}
+#felt27{
+    grid-area: z;
+}
+#felt28{
+    grid-area: q;
+}
+#felt29{
+    grid-area: oe;
+}
+#felt30{
+    grid-area: ch;
+}
+
+
+
+
+
+
